@@ -25,10 +25,13 @@ img.setAttribute('alt',`profile image of ${fullName}`);
 
 /* Step 5 - Array */
 const moreFood = 'Pounded Yam';
-favouriteFood.push(moreFood);
-
 foodElement.innerHTML += `${favouriteFood}<br>`;
-
+favouriteFood.push(moreFood);
+foodElement.innerHTML += `${favouriteFood}<br>`;
+favouriteFood.shift()
+foodElement.innerHTML += `${favouriteFood}<br>`;
+favouriteFood.pop();
+foodElement.innerHTML += `${favouriteFood}<br>`;
 
 
 
