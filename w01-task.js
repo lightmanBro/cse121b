@@ -26,3 +26,10 @@ const h3 = document.createElement('h3');
 h3.textContent = 'Relief Society';
 section.appendChild(h3);
 console.log(section)
+
+document.querySelector('h1').addEventListener('mouseenter',(e)=>{
+	console.log('Focused')
+	document.body.style.backgroundColor = 'black';
+})
+
+
