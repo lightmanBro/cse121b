@@ -45,13 +45,53 @@ button{
     outline: none;
 }
 .results{
-    border: .15rem solid grey;
-    width: 80%;
+    /* border: .15rem solid grey; */
+    width: 80vw;
     margin: auto;
     padding: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 .books{
     border: .15rem solid grey;
     width: 30rem;
-    height: 35rem;
+    height: 40rem;
+    border-radius: .25rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.book-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .25rem;
+}
+img{
+    border: .15rem solid grey;
+    width: 100%;
+    height: 80%;
+    height: 20rem;
+    text-align: center;
+}
+.author{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.rest{
+    padding: 1rem;
+}
+.published, .page-count{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: black;
 }
