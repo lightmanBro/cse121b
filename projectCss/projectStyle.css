@@ -65,9 +65,9 @@ button{
 }
 .book-title{
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     text-align: center;
-    padding: .25rem;
+    padding: .5rem;
 }
 img{
     /* border: .15rem solid grey; */
@@ -78,6 +78,7 @@ img{
 }
 .author{
     text-align: center;
+    padding: .5rem;
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -86,6 +87,14 @@ a{
     text-align: center;
     font-weight: 700;
     font-size: 1.5rem;
+    /* border: .25rem solid grey; */
+    width: 100%;
+    margin: .5rem;
+    padding: 1rem;
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: .25rem;
 }
 .rest{
     padding: 1rem;
@@ -94,6 +103,8 @@ a{
     font-weight: 700;
     font-size: 1.5rem;
     color: black;
+    padding: .5rem;
+    border-bottom: .15rem solid grey;
 }
 footer{
     background-color: black;
