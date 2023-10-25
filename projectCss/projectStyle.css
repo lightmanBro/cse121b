@@ -95,3 +95,11 @@ a{
     font-size: 1.5rem;
     color: black;
 }
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
