@@ -89,7 +89,7 @@ a{
     font-size: 1.5rem;
     /* border: .25rem solid grey; */
     width: 100%;
-    margin: .5rem;
+    margin: .5rem auto;
     padding: 1rem;
     display: block;
     background-color: black;
